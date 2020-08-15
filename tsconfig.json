@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"composite": true,
+		"incremental": true,
+		"jsx": "react",
+		"lib": ["dom", "es5", "es6"],
+		"moduleResolution": "node",
+		"paths": {
+			"~*": ["./*"]
+		},
+		"strict": true,
+		"target": "es5"
+	},
+	"include": ["src/**/*"]
+}
